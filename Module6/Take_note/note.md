@@ -104,7 +104,7 @@ NMF has proven powerful for various applications:
 1. **Information Loss with Truncation**
    - If decomposition produces negative values, algorithm automatically truncates to zero
    - May not maintain as much original information as PCA
-   - Formula for truncation: $\text{value} = \max(0, \text{computed\_value})$
+   - Formula for truncation: $\text{value} = \max(0, computed\_value)$
 
 1. **No Orthogonality Constraint**
    - Unlike PCA, no constraint for orthogonal vectors
